@@ -1,0 +1,36 @@
+.viewerTasks {
+  display: flex;
+  justify-content: space-between;
+  width: 39.875rem;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.viewerTasks span {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  padding: 3px 10px;
+  border-radius: 50%;
+}
+
+.createdTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.createdTask strong {
+  color: var(--blue);
+}
+
+.concludedTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.concludedTask strong {
+  color: var(--purple);
+}
